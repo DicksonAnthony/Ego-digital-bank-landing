@@ -277,7 +277,7 @@ input::placeholder {
     line-height: 30px;
   }
   .check-btn {
-    position: relative;
+    position: inherit;
     display: block;
     z-index: 5;
   }
