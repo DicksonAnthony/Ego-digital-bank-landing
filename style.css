@@ -1,0 +1,402 @@
+/* If you want to be successful you must embrace the boredom of consistency -- THEBUSINESSHACKS */
+/* Tuesday, ‎October ‎19, ‎2021, ‏‎4:08:55 AM */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #272727;
+}
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+/* Navigation */
+header {
+  border: 1px solid magenta;
+}
+nav {
+  height: 100px;
+  width: 100%;
+}
+.logo {
+  float: left;
+  margin-left: 80px;
+  width: 80px;
+  margin-top: 10px;
+}
+nav ul {
+  list-style-type: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  float: right;
+  font-size: 0.9375rem;
+}
+nav li {
+  padding: 0 36.9px;
+  margin: 0 5px;
+  line-height: 80px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #f7ffff;
+}
+.active {
+  border-bottom: 3px solid #65e2fd;
+  border-radius: 2px;
+}
+.check-btn {
+  color: #2dc9ec;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 40px;
+  float: right;
+  display: none;
+}
+#check {
+  display: none;
+}
+/* End of navigation */
+/* Hero section */
+#hero {
+  border: 1px solid magenta;
+}
+.container-hero {
+  border: 1px solid magenta;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.hero-text {
+  color: #f7ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+  margin-top: 200px;
+}
+.hero-text p {
+  border-left: 3px solid #65e2fd;
+  border-radius: 2px;
+  padding-left: 8px;
+  margin-left: 50px;
+}
+.emphasis-span {
+  color: #65e2fd;
+  font-weight: 600;
+}
+.emphasis-span2 {
+  color: #48a3b6;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-style: italic;
+}
+.hero-image {
+  border: 1px solid magenta;
+}
+.kings-queens {
+  border: 1px solid magenta;
+  width: 600px;
+}
+/* End of hero section */
+/* Beginning of about section */
+#about-us {
+  border: 1px solid magenta;
+}
+.container-about-us {
+  border: 1px solid magenta;
+}
+.container-img {
+  border: 1px solid magenta;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.about-us-img {
+  border: 1px solid magenta;
+  width: 350px;
+}
+.img-1 {
+  object-fit: contain; /*the image was streched out cuz i made the second image have a margin top and this solved it*/
+}
+.img-2 {
+  margin-top: 150px;
+}
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.1875rem;
+  text-align: center;
+  color: #f7ffff;
+}
+.nice-underline {
+  width: 4%;
+  height: 3px;
+  margin: 0 auto;
+  border: 1px solid #65e2fd;
+  border-radius: 2px;
+  background: #65e2fd;
+}
+.about-text {
+  width: 50%;
+  margin: 0 auto;
+  color: #f7ffff;
+  padding-left: 10px;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  line-height: 2.1875rem;
+  border-radius: 2px;
+  border: 1px solid magenta;
+  border-left: 3px solid #65e2fd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.We-are-ego-bank {
+  margin-left: 30%;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  color: #f7ffff;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.emphasis-span3 {
+  color: #48a3b6;
+  font-weight: 600;
+}
+/* End of about section */
+/* Beginning of sign up section */
+#signup {
+  border: 1px solid magenta;
+}
+.container-signup {
+  border: 1px solid magenta;
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.signup {
+  border: 1px solid magenta;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 150px;
+  text-align: center;
+}
+.nu2 {
+  width: 20%;
+  margin-bottom: 25px;
+}
+.policy {
+  color: rgb(73, 101, 192);
+}
+.smaller {
+  font-size: 0.5rem;
+}
+.signup-img {
+  border: 1px solid magenta;
+  width: 550px;
+}
+.form1 {
+  max-width: 100%;
+  margin: 100px 0;
+}
+input::placeholder {
+  color: #4cddfd;
+}
+.input-1 {
+  margin: 5px 0px;
+  width: 400px;
+  padding: 16px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  background-color: #f7ffff;
+}
+/* End of signup section */
+#contact-us {
+  border: 1px solid magenta;
+}
+.container-contact-us {
+  border: 1px solid magenta;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.contact-img {
+  width: 600px;
+  margin-top: 100px;
+  transform: scaleX(-1); /*it flipped the image orientation*/
+  border: 1px solid magenta;
+}
+.contact-us-form {
+  border: 1px solid magenta;
+}
+.heading2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.stuff {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #f7ffff;
+}
+.form2 {
+  max-width: 400px;
+  margin: 50px 20px;
+}
+.input-2 {
+  margin-bottom: 1.875rem;
+  width: 25rem;
+  padding: 16px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  background-color: #f7ffff;
+}
+#message {
+  height: 200px;
+}
+.send-btn {
+  width: 80px;
+  position: relative;
+  bottom: 138px;
+  left: 360px;
+}
+.top-btn {
+  display: none;
+}
+.COPYRIGHT {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f7ffff;
+  font-size: 0.625rem;
+  font-weight: 200;
+  text-align: center;
+}
+#myBtn {
+  display: none;
+}
+/* End of contact section & End of desktop version (10/23/2021--11:40pm)*/
+/* Beginning of mobile version / media query (10/23/2021--11:40pm)*/
+/* If you want to be successful you must embrace the boredom of consistency -- THEBUSINESSHACKS */
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    background-color: #0c6274;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 3;
+  }
+  nav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .check-btn {
+    position: relative;
+    display: block;
+    z-index: 5;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
+  .container-hero {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-image {
+    order: 1;
+  }
+  .kings-queens {
+    width: 100%;
+  }
+  .hero-text {
+    order: 2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+    line-height: 45px;
+  }
+  .container-img {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .about-us-img {
+    width: 150px;
+  }
+  .heading {
+    font-size: 1.875rem;
+  }
+  .nice-underline {
+    width: 20%;
+    height: 2px;
+  }
+  .about-text {
+    width: 90%;
+    font-size: 1.25rem;
+  }
+  .We-are-ego-bank {
+    margin-left: 20%;
+    font-size: 1.25rem;
+  }
+  .container-signup {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .signup-img {
+    margin-top: 60px;
+    order: 1;
+  }
+  .signup {
+    order: 2;
+    margin-top: 120px;
+  }
+  .input-1 {
+    width: 100%;
+  }
+  .container-contact-us {
+    flex-direction: column;
+  }
+  .contact-img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .form2 {
+    max-width: 100%;
+  }
+  .input-2 {
+    width: 100%;
+  }
+  .send-btn {
+    width: 60px;
+    bottom: 138px;
+    left: 250px;
+  }
+  .top-btn {
+    display: inline-block; /*this made it retain it's properties even after i gave it a display of none in the laptop version*/
+    position: relative;
+    left: 15.25rem;
+    bottom: -30px;
+  }
+}
+/* If you want to be successful you must embrace the boredom of consistency -- THEBUSINESSHACKS */
+/* End of mobile version / media query (11/5/2021--9:16pm)*/
