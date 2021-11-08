@@ -360,7 +360,7 @@ input::placeholder {
   .top-btn {
     display: inline-block; /*this made it retain it's properties even after i gave it a display of none in the laptop version*/
     position: relative;
-    left: 180px;
+    left: 160px;
     bottom: -30px;
   }
 }
