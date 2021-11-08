@@ -16,9 +16,6 @@ img {
   max-width: 100%;
 }
 /* Navigation */
-header {
-  border: 1px solid magenta;
-}
 nav {
   height: 100px;
   width: 100%;
@@ -63,11 +60,7 @@ nav a {
 }
 /* End of navigation */
 /* Hero section */
-#hero {
-  border: 1px solid magenta;
-}
 .container-hero {
-  border: 1px solid magenta;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -97,30 +90,18 @@ nav a {
   font-weight: bold;
   font-style: italic;
 }
-.hero-image {
-  border: 1px solid magenta;
-}
 .kings-queens {
-  border: 1px solid magenta;
   width: 600px;
 }
 /* End of hero section */
 /* Beginning of about section */
-#about-us {
-  border: 1px solid magenta;
-}
-.container-about-us {
-  border: 1px solid magenta;
-}
 .container-img {
-  border: 1px solid magenta;
   display: flex;
   justify-content: space-around;
   width: 80%;
   margin: 0 auto;
 }
 .about-us-img {
-  border: 1px solid magenta;
   width: 350px;
 }
 .img-1 {
@@ -152,7 +133,6 @@ nav a {
   font-weight: 300;
   line-height: 2.1875rem;
   border-radius: 2px;
-  border: 1px solid magenta;
   border-left: 3px solid #65e2fd;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -170,18 +150,13 @@ nav a {
 }
 /* End of about section */
 /* Beginning of sign up section */
-#signup {
-  border: 1px solid magenta;
-}
 .container-signup {
-  border: 1px solid magenta;
   display: flex;
   justify-content: space-around;
   max-width: 80%;
   margin: 0 auto;
 }
 .signup {
-  border: 1px solid magenta;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 150px;
   text-align: center;
@@ -197,7 +172,6 @@ nav a {
   font-size: 0.5rem;
 }
 .signup-img {
-  border: 1px solid magenta;
   width: 550px;
 }
 .form1 {
@@ -219,11 +193,7 @@ input::placeholder {
   background-color: #f7ffff;
 }
 /* End of signup section */
-#contact-us {
-  border: 1px solid magenta;
-}
 .container-contact-us {
-  border: 1px solid magenta;
   display: flex;
   justify-content: space-around;
   width: 80%;
@@ -233,10 +203,6 @@ input::placeholder {
   width: 600px;
   margin-top: 100px;
   transform: scaleX(-1); /*it flipped the image orientation*/
-  border: 1px solid magenta;
-}
-.contact-us-form {
-  border: 1px solid magenta;
 }
 .heading2 {
   text-align: left;
