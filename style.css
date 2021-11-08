@@ -138,7 +138,7 @@ nav a {
 }
 .We-are-ego-bank {
   margin-left: 30%;
-  font-size: 1.5625rem;
+  font-size: 25px;
   font-weight: 300;
   color: #f7ffff;
   text-decoration: underline;
@@ -360,7 +360,7 @@ input::placeholder {
   .top-btn {
     display: inline-block; /*this made it retain it's properties even after i gave it a display of none in the laptop version*/
     position: relative;
-    left: 220px;
+    left: 200px;
     bottom: -30px;
   }
 }
