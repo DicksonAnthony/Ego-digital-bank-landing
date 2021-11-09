@@ -5,6 +5,9 @@ EGO digital bank is a fictional digital banking service (ego meanimg money in my
 I will try my best to constantly format the code and make it less beginner like as my skills improve.
 I would appreciate it if the concepts are not copied
 
+![Design preview for EGO DIGITAL BANK]("images/EGO landing page-mobile.png")
+![Design preview for EGO DIGITAL BANK]("images/EGO landing page.png")
+
 # The project was created with the desktop size of 1440px or greater and mobile phone size of 425px(large phones) in mind but can still adapt to smaller phone sizes a little.
 
 # This is the deploy link: https://angry-borg-c58439.netlify.app/
