@@ -1,7 +1,7 @@
 # EGO DIGITAL BANK
 
-![Design preview for EGO DIGITAL BANK](./images/EGO landing page-mobile.png)
-![Design preview for EGO DIGITAL BANK](./images/EGO landing page.png)
+![Design preview for EGO DIGITAL BANK](images/EGO landing page-mobile.png)
+![Design preview for EGO DIGITAL BANK](images/EGO landing page.png)
 
 EGO digital bank is a fictional digital banking service (ego meanimg money in my language) that i personally thought of for the sake of practic and the improvement of my frontend skills. i am open to crititizms and advice on how i could improve the look and code of this website.
 
