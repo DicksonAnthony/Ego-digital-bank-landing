@@ -180,8 +180,9 @@ nav a {
   border: none;
   margin-top: 20px;
   border-radius: 10px;
-  max-width: 80px;
-  background-color: #4cddfd;
+  max-width: 100px;
+  background-color: #65e2fd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .form1 {
   max-width: 100%;
