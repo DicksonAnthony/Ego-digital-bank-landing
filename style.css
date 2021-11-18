@@ -278,7 +278,7 @@ input::placeholder {
   }
   .check-btn {
     position: fixed;
-    left: 1rem;
+    right: 1rem;
     top: 1rem;
     display: block;
     z-index: 5;
