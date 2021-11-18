@@ -158,7 +158,7 @@ nav a {
 }
 .signup {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 60px;
+  margin-top: 100px;
   text-align: center;
 }
 .nu2 {
@@ -201,7 +201,7 @@ input::placeholder {
 }
 .contact-img {
   width: 600px;
-  margin-top: 100px;
+  margin-top: 80px;
   transform: scaleX(-1); /*it flipped the image orientation*/
 }
 .heading2 {
@@ -331,12 +331,12 @@ input::placeholder {
   }
 
   .signup-img {
-    margin-top: 60px;
+    margin-top: 80px;
     order: 1;
   }
   .signup {
     order: 2;
-    margin-top: 120px;
+    margin-top: 80px;
   }
   .input-1 {
     width: 100%;
