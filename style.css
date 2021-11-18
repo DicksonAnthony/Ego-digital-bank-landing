@@ -178,9 +178,10 @@ nav a {
   color: #f7ffff;
   padding: 10px;
   border: none;
+  margin-top: 20px;
   border-radius: 10px;
   max-width: 80px;
-  background-color: #48a3b6;
+  background-color: #4cddfd;
 }
 .form1 {
   max-width: 100%;
