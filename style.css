@@ -176,11 +176,12 @@ nav a {
 }
 #submit{
   color: #f7ffff;
-  padding: 10px;
+  font-weight: bold;
+  padding: 20px;
   border: none;
   margin-top: 20px;
-  border-radius: 10px;
-  max-width: 100px;
+  border-radius: 20px;
+  max-width: 120px;
   background-color: #65e2fd;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
