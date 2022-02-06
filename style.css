@@ -332,6 +332,7 @@ input::placeholder {
     width: 90%;
     font-size: 1.25rem;
     line-height: normal;
+    padding-top: 20px;
   }
   .We-are-ego-bank {
     margin-left: 20%;
