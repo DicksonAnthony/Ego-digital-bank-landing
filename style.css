@@ -195,6 +195,9 @@ input::placeholder {
 textarea::placeholder {
   color: #48a3b6;
 }
+textarea{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .input-1 {
   margin: 5px 0px;
   width: 400px;
