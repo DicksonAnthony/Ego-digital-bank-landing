@@ -192,6 +192,9 @@ nav a {
 input::placeholder {
   color: #48a3b6;
 }
+textarea::placeholder {
+  color: #48a3b6;
+}
 .input-1 {
   margin: 5px 0px;
   width: 400px;
