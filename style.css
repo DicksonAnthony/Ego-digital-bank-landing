@@ -197,6 +197,7 @@ textarea::placeholder {
 }
 textarea{
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  resize: none;
 }
 .input-1 {
   margin: 5px 0px;
