@@ -337,7 +337,7 @@ textarea{
   }
   .about-text {
     width: 90%;
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
     line-height: normal;
     padding: 1.25rem;
   }
@@ -350,7 +350,7 @@ textarea{
     width: 100%;
   }
   .stuff{
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
   }
   .signup-img {
     margin-top: 80px;
