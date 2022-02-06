@@ -349,7 +349,9 @@ textarea{
     flex-direction: column;
     width: 100%;
   }
-
+  .stuff{
+    font-size: 0.9375rem;
+  }
   .signup-img {
     margin-top: 80px;
     order: 1;
